@@ -1,7 +1,7 @@
 'use client'
 import { useRef } from 'react'
 import { motion, useInView } from 'framer-motion'
-import { Mail, Github, Linkedin, MapPin } from 'lucide-react'
+import { Github, Linkedin, MapPin } from 'lucide-react'
 import { resume } from '@/data/resume'
 
 export default function Contact() {
@@ -30,14 +30,6 @@ export default function Contact() {
           transition={{ duration: 0.5, delay: 0.1 }}
           className="flex flex-col items-center gap-6"
         >
-          <a
-            href={`mailto:${resume.email}`}
-            className="inline-flex items-center gap-2.5 px-8 py-4 bg-indigo-500 hover:bg-indigo-600 text-white font-medium rounded-xl transition-colors"
-          >
-            <Mail size={18} />
-            {resume.email}
-          </a>
-
           <div className="flex items-center gap-6 text-zinc-500">
             <a
               href={resume.github}

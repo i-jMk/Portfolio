@@ -44,7 +44,9 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href={`mailto:${resume.email}`}
+            href={resume.linkedin}
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-sm px-4 py-2 bg-indigo-500 hover:bg-indigo-600 text-white rounded-lg transition-colors font-medium"
           >
             Hire Me
@@ -73,7 +75,9 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href={`mailto:${resume.email}`}
+            href={resume.linkedin}
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-sm px-4 py-2 bg-indigo-500 text-white rounded-lg text-center font-medium"
             onClick={() => setOpen(false)}
           >

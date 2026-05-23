@@ -1,6 +1,6 @@
 'use client'
 import { motion } from 'framer-motion'
-import { MapPin, Mail, Github, Linkedin, ChevronDown } from 'lucide-react'
+import { MapPin, Github, Linkedin, ChevronDown } from 'lucide-react'
 import { resume } from '@/data/resume'
 
 export default function Hero() {
@@ -101,13 +101,6 @@ export default function Hero() {
             aria-label="LinkedIn"
           >
             <Linkedin size={18} />
-          </a>
-          <a
-            href={`mailto:${resume.email}`}
-            className="hover:text-white transition-colors"
-            aria-label="Email"
-          >
-            <Mail size={18} />
           </a>
         </motion.div>
       </div>
