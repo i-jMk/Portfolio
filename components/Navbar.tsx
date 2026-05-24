@@ -1,7 +1,6 @@
 'use client'
 import { useState, useEffect } from 'react'
 import { Menu, X } from 'lucide-react'
-import { resume } from '@/data/resume'
 
 const links = [
   { label: 'About', href: '#about' },
@@ -43,14 +42,6 @@ export default function Navbar() {
               {l.label}
             </a>
           ))}
-          <a
-            href={resume.linkedin}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-sm px-4 py-2 bg-indigo-500 hover:bg-indigo-600 text-white rounded-lg transition-colors font-medium"
-          >
-            Hire Me
-          </a>
         </div>
 
         <button
@@ -74,15 +65,6 @@ export default function Navbar() {
               {l.label}
             </a>
           ))}
-          <a
-            href={resume.linkedin}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-sm px-4 py-2 bg-indigo-500 text-white rounded-lg text-center font-medium"
-            onClick={() => setOpen(false)}
-          >
-            Hire Me
-          </a>
         </div>
       )}
     </header>

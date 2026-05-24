@@ -1,14 +1,14 @@
 export const resume = {
-  name: 'Jijo Kokkad',
-  title: 'Mechanical Engineer',
+  name: 'Jijo [JJ] Kokkad',
+  title: 'AI Automation Engineer',
   tagline:
-    'Process & Manufacturing Engineer specializing in Medical Devices, Lean Six Sigma, and Process Validation in highly regulated environments.',
+    'AI Automation Engineer bridging industrial engineering expertise with intelligent automation — eliminating manual workflows and scaling operational intelligence across manufacturing and regulated environments.',
   email: 'jmkokkad@gmail.com',
   location: 'Indiana, US',
   linkedin: 'https://www.linkedin.com/in/jijokokkad/',
   github: 'https://github.com/i-jMk',
   summary:
-    'Results-oriented Mechanical Engineer with extensive experience in Manufacturing, Quality, and Process Validation within highly regulated (Medical Device, Pharma) environments. Proven expert in Lean Six Sigma, SPC, and Root Cause Analysis, consistently delivering improvements in throughput and waste reduction. Proficient in comprehensive data analysis (Minitab, SAP), factory layout optimization, and equipment commissioning (FAT/SAT). Adept at leading cross-functional teams and managing vendor relationships to drive continuous improvement projects from inception to deployment.',
+    'AI Automation Engineer with 6+ years deploying automation solutions across medical device, manufacturing, and operations environments. Combines deep process engineering expertise — IQ/OQ/PQ, DOE, Lean Six Sigma — with Python, SQL, and AI-driven tooling to eliminate manual workflows, accelerate decision-making, and scale operational intelligence. Built custom automation systems that delivered 80% efficiency gains and 44% data output improvements in regulated environments. Anthropic-certified in AI capabilities; pursuing dual Master\'s degrees in Business Analytics and Strategy at Indiana University Kelley School of Business.',
 
   experience: [
     {
